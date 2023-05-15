@@ -3,7 +3,11 @@ $path = 'http://' . $_SERVER["HTTP_HOST"] . '/projetoweb2';
 ?>
 <nav class="navbar navbar-expand-lg bg-body-tertiary mt-3">
     <div class="container-fluid">
-        <img src="<?php echo $path; ?>/arquivos/imagens/if.png" width="3%">
+            
+            <a href="<?php echo $path; ?>/index.php">
+                <img src="arquivos/imagens/if.png" alt="Logo do IFMS"> 
+            </a>
+        
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
